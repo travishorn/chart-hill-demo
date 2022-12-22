@@ -1,0 +1,40 @@
+{
+  "name": "chart-hill-demo",
+  "version": "0.1.0",
+  "description": "Demo for Chart Hill, a chart component library for Vue 3.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "chart",
+    "library",
+    "demo",
+    "example",
+    "sample"
+  ],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/chart-hill-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/travishorn/chart-hill-demo/issues"
+  },
+  "homepage": "https://github.com/travishorn/chart-hill-demo#readme",
+  "dependencies": {
+    "d3-array": "^3.2.1",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "d3-shape": "^3.2.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
