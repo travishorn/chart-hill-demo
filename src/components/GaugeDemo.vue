@@ -3,7 +3,7 @@ import { ref } from "vue";
 const min = ref(20);
 const max = ref(40);
 const value = ref(35);
-const barColor = ref("#106cde");
+const barColor = ref("#1f77b4");
 </script>
 
 <template>
@@ -32,7 +32,7 @@ const barColor = ref("#106cde");
 
       <div style="display: flex; flex-direction: column;">
         <label for="barColor" style="font-size: 12px;">Bar color</label>
-        <input style="width: 100%;" id="barColor" type="color" v-model="barColor" />
+        <input id="barColor" type="color" v-model="barColor" />
       </div>
     </div>
   </div>

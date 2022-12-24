@@ -1,12 +1,12 @@
 <script setup>
 import GaugeDemo from "./components/GaugeDemo.vue";
-import LineDemo from "./components/LineDemo.vue";
+import TimeLineDemo from "./components/TimeLineDemo.vue";
 </script>
 
 <template>
   <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; display: flex; flex-direction: column; gap: 80px;">
     <GaugeDemo />
-    <LineDemo />
+    <TimeLineDemo />
   </div>
 </template>
 
